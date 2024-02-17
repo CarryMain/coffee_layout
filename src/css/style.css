@@ -17,6 +17,8 @@ html {
     font-family: "Merienda", cursive;
 }
 
+/* Main page */
+
 .main {
     min-height: 640px;
     padding: 41px 0 200px 0;
@@ -183,5 +185,210 @@ html {
 }
 
 .footer .footer_logo { 
+    margin-top: 31px;
+}
+
+/* Our Coffee Page */
+
+.our { 
+    height: 330px;
+    padding: 70px 240px 84px 240px;
+    background: url('../img/backgrounds/background_ourCoffee.jpeg') center center/cover no-repeat;
+}
+
+.our .our_nav { 
+    position: relative;
+    display: flex;
+    gap: 90px;
+    width: 102px;
+    height: 35px;
+}
+
+.our .our_nav .our_img { 
+    position: absolute;
+    bottom: 17px;
+    left: -35px;
+}
+
+.our .our_nav a { 
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.our .our_title { 
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 83px;
+    margin-bottom: 0;
+}
+
+.our_about { 
+    min-height: 1248px;
+    background: rgb(255, 255, 255);
+    padding: 70px 315px 32px 315px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.our_about .our_title { 
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 805px;
+    display: block;
+}
+
+.our_about .our_logo { 
+    display: block;
+    margin-left: 803px;
+}
+
+.our_about > .our_text { 
+    width: 340px;
+    height: 232px;
+    margin-top: 10px;
+    margin-left: 728px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.our_about .our_img { 
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 600px;
+}
+
+.our_about .our_stick { 
+    border: 1px solid rgb(0, 0, 0);
+    width: 335px;
+    margin-left: 489px;
+    margin-top: 56px;
+    display: inline-block;
+}
+
+.our_about .our_wrapper { 
+    display: flex;
+    margin-top: 60px;
+    margin-left: 376px;
+}
+
+.our_about .our_wrapper .input_wrapper { 
+    width: 279px;
+    height: 45px;
+    display: flex;
+    margin-right: 116px;
+    margin-left: -80px;
+}
+
+.our_about .our_wrapper .input_wrapper .input_text { 
+    width: 84px;
+    height: 41px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.our_about .our_wrapper .input_wrapper input { 
+    width: 177px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.our_about .our_wrapper .input_wrapper input::placeholder { 
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Merienda;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.our_about .our_wrapper .button_wrapper { 
+    width: 320px;
+    height: 45px;
+    display: flex;
+    gap: 5px;
+}
+
+.our_about .our_wrapper .button_wrapper .button_text { 
+    margin-right: 34px;
+}
+
+.our_about .our_wrapper .button_wrapper button { 
+    width: 74px;
+    height: 30px;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.our_about .our_card { 
+    margin-top: 46px;
+    margin-inline: 315px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 67px;
+}
+
+.our_about .our_card .card { 
+    width: 216px;
+    height: 260px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 37px 26px 0 25px;
+}
+
+.our_about .our_card .card .card_text {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.our_about .our_card .card .card_country, .our_about .our_card .card .card_price {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* footer our */
+.our_footer {
+    min-height: 150px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 30px 543px 21px 542px;
+}
+
+.our_footer .our_nav { 
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.our_footer .our_nav .our_wrapper {
+    display: flex;
+    align-items: end;
+}
+
+.our_footer .our_nav a { 
+    color:rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.our_footer .our_logo { 
     margin-top: 31px;
 }
