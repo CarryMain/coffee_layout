@@ -1,0 +1,187 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    font-family: "Merienda", cursive;
+}
+
+html { 
+    font-family: "Merienda", cursive;
+}
+
+.main {
+    min-height: 640px;
+    padding: 41px 0 200px 0;
+    background: url('../img/backgrounds/background_main.png') center center/cover no-repeat;
+}
+
+.main .main_nav {
+    margin-left: 161px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    gap: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.main .main_nav .main_wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.main .main_nav img {
+    width: 35px;
+    height: 35px;
+}
+
+.main .main_title {
+    color: rgb(255, 255, 255);
+    margin-top: 101px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main .main_coffee {
+    text-align: center;
+    margin-top: 21px;
+}
+
+.main .main_text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.main .main_button { 
+    display: block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(196, 196, 196, 0);
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about {
+    min-height: 520px;
+    background: rgb(255, 255, 255);
+    padding: 80px 425px 101px 438px;
+}
+
+.about .about_title {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about .about_logo { 
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.about .about_wrapper {
+    margin: 0 auto;
+    width: 589px;
+    min-height: 223px;
+    margin-top: 41px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.best {
+    min-height: 495px;
+    background: url('../img/backgrounds/background_ourBest.png') center center/cover no-repeat;
+    padding: 80px 320px 110px 320px;
+}
+
+.best .best_title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.best .best_wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+}
+
+.best .best_wrapper .best_item { 
+    width: 220px;
+    height: 240px;
+    border-radius: 8px;
+    margin-top: 39px;
+    background: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    position: relative;
+}
+
+.best .best_wrapper .best_item img { 
+    margin-top: 25px;
+}
+
+.best .best_wrapper .best_item .best_price { 
+    position: absolute;
+    bottom: 17px;
+    left: 160px;
+}
+
+.best .best_wrapper .best_item .best_text {
+    margin-top: 19px;
+}
+
+.footer {
+    min-height: 150px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 30px 543px 21px 542px;
+}
+
+.footer .footer_nav { 
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.footer .footer_nav .footer_wrapper {
+    display: flex;
+    align-items: end;
+}
+
+.footer .footer_nav a { 
+    color:rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer .footer_logo { 
+    margin-top: 31px;
+}
