@@ -549,3 +549,150 @@ body {
     margin-top: 31px;
     margin-left: 65px;
 }
+
+/* our info page */
+
+.our_info {
+    min-height: 260px;
+    padding: 52px 0 84px 150px;
+    background: url('../img/backgrounds/background_ourCoffee.jpeg') center center/cover no-repeat;
+}
+
+.our_info .our_nav {
+    margin-left: 161px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    gap: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.our_info .our_nav .our_wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.our_info .our_nav img {
+    width: 35px;
+    height: 35px;
+}
+
+.our_info .our_title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* info */
+
+.info_coffee { 
+    height: 455px;
+    padding: 70px 295px 30px 187px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    text-align: left;
+}
+
+.info_coffee .info_title { 
+    margin-left: 894px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info_coffee .info_logo {
+    margin-left: 844px;
+    margin-top: 21px;
+}
+
+.info_coffee .info_country { 
+    margin-left: 727px;
+    margin-top: 26px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info_coffee .info_country span, .info_coffee .info_text span {
+    font-weight: bold;
+}
+
+.info_coffee .info_text {
+    width: 418px;
+    height: 102px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 727px;
+    margin-top: 16px;
+}
+
+.info_coffee .info_price { 
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 727px;
+    margin-top: 16px;
+}
+
+.info_coffee .info_price span {
+    font-size: 14px;
+}
+
+.info_coffee .info_img { 
+    width: 498px;
+    height: 355px;
+    position: absolute;
+    margin-left: 187px;
+    margin-bottom: 30px;
+}
+
+.info_coffee .info_img img {
+    width: 392px;
+    height: 355px;
+    margin-left: 93px;
+    margin-right: 13px;
+}
+
+/* footer info page */
+
+.info_footer {
+    min-height: 150px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 30px 543px 21px 542px;
+}
+
+.info_footer .info_nav { 
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.info_footer .info_nav .info_wrapper {
+    display: flex;
+    align-items: end;
+}
+
+.info_footer .info_nav a { 
+    color:rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.info_footer .info_logo { 
+    margin-top: 31px;
+}
+
+
